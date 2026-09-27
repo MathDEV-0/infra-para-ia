@@ -42,3 +42,13 @@ variable "memoria" {
   type        = number
   default     = 1
 }
+
+variable "node_vm_size" {
+  type    = string
+  default = "Standard_B4ps_v2"
+}
+
+variable "node_count" {
+  type    = number
+  default = 1
+}
